@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Not a Real CRM</title>
+  </head>
+  <!-- Content na -->
+  <body>
+    <header>
+      <h1>Not a Real CRM</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Catalog</a></li>
+          <li><a href="#">Inventory</a></li>
+        </ul>
+      </nav>
+    </header>
+<!-- Pwede na magstart ng bagong section -->
+<!-- Ang main is everything except header and footer -->
+    <main>
+      <section>
+        <hgroup>
+          <h2>Contacts</h2>
+          <h3>My CRM</h3>
+          <nav>
+            <ul>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Orders</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Tasks</a></li>
+              <li><a href="#">Evaluation Copies</a></li>
+            </ul>
+          </nav>
+        </hgroup>
+      </section>
+<!-- Bagong Section -->
+<!-- mas limiting ang options sa section than div -->
+<!-- Kung lalagyan ng design easier if you use div -->
+<!-- Ang div is you want CSS properties, or usually buttons, pics, forms -->
+      <section>
+        <h3>Jack Smith</h3>
+        <p>
+          Address: 1 Microsoft Way <br>
+          City: Redmond <br>
+          Region: WA <br>
+          Country: USA <br>
+          Postal: 98052-8300 <br>
+          Phone: +1 (425) 882-8080 <br>
+          Email: <a href="mailto:jacksmith@microsoft.com">jacksmith@microsoft.com</a> <br>
+        </p>
+<!-- If you add div, pwede i-edit sa css later. Other option for future reference -->
+        <div id="options">
+          <a href="#"><img src="./edit.png" title="Edit this contact"></a>
+          <a href="#"><img src="./add.png" title="Add a new contact"></a>
+          <a href="#"><img src="./delete.png" title="Delete this contact"></a>
+          <a href="#"><img src="./email.png" title="Email the contact"></a>
+          <a href="#"><img src="./appointment.png" title="Make appointment with contact"></a> <br>
+        </div>
+        <img src="./jack-smith-map.png" title="Jack Smith Map" alt="jack Smith Map"> <br>
+        <em>Map for Jack Smith</em>
+      </section>
+      <!-- Section nalang -->
+      <section>
+        <h3>Last Contact Viewed</h3>
+        <p> <a href="#">Camille Bernard</a> <br> University of Paris</p>
+      </section>
+  <!-- close main since footer na -->
+    </main>
+    <footer>
+      <p><small><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a> <br>
+      <em>Copyright © 2013 Not a Real CRM</em></small></p>
+    </footer>
+  </body>
+<!-- Yeeeey! -->
+</html>
